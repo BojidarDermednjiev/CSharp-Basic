@@ -18,7 +18,7 @@
                     else
                         Console.Write($"A{floor}{room} ");
                 }
-                Environment.NewLine.Trim();
+                Console.WriteLine();
             }
         }
     }
