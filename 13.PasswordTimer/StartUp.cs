@@ -60,7 +60,7 @@
                     writeLine($"{currentSecond} sec.");
                     Thread.Sleep(1000);
                 }
-                incorrectInputsPasswordCounter = default(int);
+                incorrectInputsPasswordCounter = default;
                 writeLine("Time's up! You can try Again!");
             }
             isHaveLetter = false;
